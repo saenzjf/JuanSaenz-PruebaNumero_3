@@ -1,0 +1,37 @@
+>>>>>CRUD plataforma Tutoriales<<<<<<<
+
+Dependencias que se deben instalar:
+
+    > Dependencias principales 
+    npm install express sequelize mysql2
+
+    > TypeScript como una dependencia de desarrollo
+        npm install typescript -D
+
+    > Definiciones de tipos para Node.js y Express
+        npm install @types/node @types/express -D
+
+    > ts-node para ejecutar archivos TypeScript
+        npm install ts-node -D
+
+    > nodemon para reiniciar automáticamente el servidor
+        npm install nodemon -D
+
+    > Definiciones de tipos para Sequelize
+        npm install @types/sequelize -D
+
+    > Dotenv para cargar variables de entorno desde un archivo .env
+        npm install dotenv
+
+    > Sequelize-cli para administrar la base de datos con Sequelize
+        npm install sequelize-cli -D
+
+    > cors para habilitar el control de acceso a recursos cruzados (CORS)
+        npm install cors
+
+
+Comandos para ejecutar:
+
+    > tsc --init
+    > tsc --watch
+    > nodemon dist/index.js
