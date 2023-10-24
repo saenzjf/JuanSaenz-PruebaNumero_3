@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Output of log files from npm
+npm-debug.log
+
+# Output of npm
+npm-debug.log.*
+
+# dotenv environment file
+.env
+
+# TypeScript build output
+/dist
+
+# Sequelize config and migrations
+/sequelize-config.js
+/sequelize/
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+#################################
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
